@@ -144,12 +144,6 @@
   margin-left: 20px;
 }
 
-@media screen and (max-width: $mobile-width) {
-  .header-link {
-    margin: 0 10px;
-  }
-}
-
 @media screen and (min-width: 1150px) {
   .image-half {
     height: calc((50vw / 1300) * (1400));

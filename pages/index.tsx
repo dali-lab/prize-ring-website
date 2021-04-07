@@ -1,4 +1,4 @@
-import Layout, { Header } from 'components/Layout';
+import Layout, { Header, Footer } from 'components/Layout';
 import {
   MainSplash, Section, Updates,
 } from 'components/Home';
@@ -41,6 +41,7 @@ const Home = (): JSX.Element => {
         offset={{ bottom: 140, left: 100 }}
       />
       <Updates />
+      <Footer />
     </Layout>
   );
 };
