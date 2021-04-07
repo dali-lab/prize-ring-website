@@ -18,7 +18,10 @@ const Section = ({
   outlineImage, description, displayImage, orientation, offset = { top: 40, left: -40 },
 }: SectionProps): JSX.Element => {
   return (
-    <section className={styles.section} style={{ flexDirection: orientation === 'left' ? 'row' : 'row-reverse' }}>
+    <section
+      className={styles.section}
+      style={{ flexDirection: orientation === 'left' ? 'row' : 'row-reverse' }}
+    >
       <div className={styles.display}>
         <Image src={displayImage} layout="responsive" width={1250} height={1500} />
       </div>
