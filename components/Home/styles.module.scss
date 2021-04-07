@@ -1,22 +1,5 @@
 @use "variables" as *;
 
-.header {
-  width: 100%;
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-link {
-  @include opacity-change;
-  font-size: 1rem;
-  color: $darkestGray;
-  font-weight: 400;
-  margin: 0 20px;
-}
-
 .splash {
   display: flex;
   flex-direction: row;

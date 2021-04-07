@@ -1,5 +1,7 @@
 import { NextSeo } from 'next-seo';
 import { siteName } from 'lib/constants';
+import Header from './Header';
+import Footer from './Footer';
 import styles from './styles.module.scss';
 
 type LayoutProps = {
@@ -21,5 +23,7 @@ const Layout = ({
     </>
   );
 };
+
+export { Header, Footer };
 
 export default Layout;

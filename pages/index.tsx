@@ -1,6 +1,6 @@
-import Layout from 'components/Layout';
+import Layout, { Header } from 'components/Layout';
 import {
-  Header, MainSplash, Section, Updates,
+  MainSplash, Section, Updates,
 } from 'components/Home';
 
 const Home = (): JSX.Element => {
