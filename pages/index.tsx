@@ -1,5 +1,5 @@
 import Layout from 'components/Layout';
-import { Header } from 'components/Home';
+import { Header, MainSplash } from 'components/Home';
 
 const Home = (): JSX.Element => {
   return (
@@ -9,6 +9,7 @@ const Home = (): JSX.Element => {
       Players use their existing content to compete in live content-based game shows to win prizes."
     >
       <Header />
+      <MainSplash />
     </Layout>
   );
 };
