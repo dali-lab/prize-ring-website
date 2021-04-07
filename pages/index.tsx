@@ -1,5 +1,7 @@
 import Layout from 'components/Layout';
-import { Header, MainSplash, Section } from 'components/Home';
+import {
+  Header, MainSplash, Section, Updates,
+} from 'components/Home';
 
 const Home = (): JSX.Element => {
   return (
@@ -38,6 +40,7 @@ const Home = (): JSX.Element => {
         orientation="right"
         offset={{ bottom: 140, left: 100 }}
       />
+      <Updates />
     </Layout>
   );
 };
