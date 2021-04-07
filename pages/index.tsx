@@ -24,7 +24,7 @@ const Home = (): JSX.Element => {
         displayImage="/display-2.png"
         outlineImage="/blob-2.png"
         orientation="right"
-        offset={{ bottom: 140, left: 100 }}
+        offset={{ bottom: 260, left: 80 }}
       />
       <Section
         description="Choose the best content submissions in real-time interactive voting when shows go “live” at noon and 8 PM EST every day."
@@ -38,7 +38,7 @@ const Home = (): JSX.Element => {
         displayImage="/display-4.png"
         outlineImage="/blob-4.png"
         orientation="right"
-        offset={{ bottom: 140, left: 100 }}
+        offset={{ bottom: 260, left: 80 }}
       />
       <Updates />
       <Footer />
