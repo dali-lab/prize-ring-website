@@ -8,7 +8,9 @@ const Footer = (): JSX.Element => {
       <div className={styles.row}>
         <div className={styles.col}>
           <div className={styles.logo}>
-            <Image src="/logo.svg" height={50} width={50} />
+            <div style={{ width: 50, height: 50 }}>
+              <Image src="/logo.svg" height={50} width={50} layout="fixed" />
+            </div>
             <div style={{ marginLeft: 10 }}>PrizeRing</div>
           </div>
         </div>

@@ -41,7 +41,7 @@
 .col {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  min-width: 15%;
   margin-right: 30px;
 }
 
