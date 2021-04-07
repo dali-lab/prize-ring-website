@@ -98,8 +98,8 @@
   position: absolute;
   color: $darkestGray;
   font-weight: 600;
-  font-size: 1.3rem;
-  line-height: 1.9rem;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
   width: 80%;
 }
 
@@ -112,5 +112,32 @@
 @media screen and (min-width: 1150px) {
   .image-half {
     height: calc((50vw / 1300) * (1400));
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    flex-direction: column-reverse !important;
+    align-items: center;
+  }
+  .display {
+    width: 80%;
+  }
+  .blob {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  .description {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-half {
+    width: 70%;
+    height: calc((70vw / 1300) * (1800));
+    margin-left: 0;
   }
 }

@@ -9,7 +9,8 @@ type SectionProps = {
   offset?: {
     top?: number,
     left?: number,
-    right?: number
+    right?: number,
+    bottom?: number
   }
 }
 
