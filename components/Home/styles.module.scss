@@ -74,6 +74,35 @@
   margin-right: 20px;
 }
 
+.section {
+  width: 100%;
+  margin-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display {
+  width: 40%;
+  position: relative;
+}
+
+.blob {
+  width: 40%;
+  position: relative;
+  margin-top: 40px;
+}
+
+.description {
+  position: absolute;
+  color: $darkestGray;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+  width: 80%;
+}
+
 @media screen and (max-width: $mobile-width) {
   .header-link {
     margin: 0 10px;

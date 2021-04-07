@@ -1,5 +1,5 @@
 import Layout from 'components/Layout';
-import { Header, MainSplash } from 'components/Home';
+import { Header, MainSplash, Section } from 'components/Home';
 
 const Home = (): JSX.Element => {
   return (
@@ -10,6 +10,13 @@ const Home = (): JSX.Element => {
     >
       <Header />
       <MainSplash />
+      <Section
+        description="Create your own unique game shows for friends and fans from one of PrizeRing’s several show formats."
+        displayImage="/display-1.png"
+        outlineImage="/blob-1.png"
+        orientation="left"
+        offset={{ top: 100, left: -70 }}
+      />
     </Layout>
   );
 };
